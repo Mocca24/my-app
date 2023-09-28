@@ -6,6 +6,10 @@
   color: rgb(135, 135, 135);
 }
 
+.Weather form {
+  margin-bottom: 20px;
+}
+
 .Weather h1 {
   font-size: 24px;
   font-weight: 100;
