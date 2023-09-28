@@ -25,11 +25,16 @@ export default function Weather () {
             <li>Monday 08:00</li>
             <li>Light rain showers</li>
         </ul>
-        <div className="row">
+        <div className="row mt-3">
             <div className="col-6">
                 <img src= "https://ssl.gstatic.com/onebox/weather/64/rain_light.png"
-                alt="Light rain showers"/>
-            6 C
+                alt="Light rain showers"
+                className="float-left"
+                />
+            <div className="float-left">
+            <span className="temperature">6</span>
+            <span className="unit">°C</span>
+            </div>
         </div>
         <div className="col-6">
             <ul>

@@ -39,8 +39,10 @@
   margin-left: 10px;
 }
 
-.Weather canvas {
-  margin: 10px auto;
+.Weather img {
+  height: 64px;
+  margin: 10px;
+  display: inline-block;
 }
 
 .Weather .unit {
