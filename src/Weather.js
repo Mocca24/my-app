@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import "bootstrap/dist/css/bootstrap.css";
 
 
 export default function Weather(props) {
@@ -22,8 +23,6 @@ export default function Weather(props) {
         });
     }
 
-   
-
     function handleSubmit(event) {
         event.preventDefault();
         search();
@@ -32,7 +31,7 @@ export default function Weather(props) {
     function handleCityChange(event) {
         setCity(event.target.value);
     }
-    
+
 
      function search() {
         const apiKey = "311f1f45fee82242ab4086372ab360f5";
